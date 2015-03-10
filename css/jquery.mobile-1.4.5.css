@@ -1010,7 +1010,7 @@ html .ui-bar-a .ui-btn:visited,
 html .ui-body-a .ui-btn:visited,
 html body .ui-group-theme-a .ui-btn:visited,
 html head + body .ui-btn.ui-btn-a:visited {
-	background-color: 			#f6f6f6 /*{a-bup-background-color}*/;
+	background-color: 			 #E7E7DD /*{a-bup-background-color}*/;
 	border-color:	 		#ddd /*{a-bup-border}*/;
 	color: 					#333 /*{a-bup-color}*/;
 	text-shadow: 0 /*{a-bup-shadow-x}*/ 1px /*{a-bup-shadow-y}*/ 0 /*{a-bup-shadow-radius}*/ #f3f3f3 /*{a-bup-shadow-color}*/;
@@ -1032,7 +1032,7 @@ html .ui-bar-a .ui-btn:active,
 html .ui-body-a .ui-btn:active,
 html body .ui-group-theme-a .ui-btn:active,
 html head + body .ui-btn.ui-btn-a:active {
-	background-color: 			#e8e8e8 /*{a-bdown-background-color}*/;
+	background-color: 			 #E7E7DD /*{a-bdown-background-color}*/;
 	border-color:	 		#ddd /*{a-bdown-border}*/;
 	color: 					#333 /*{a-bdown-color}*/;
 	text-shadow: 0 /*{a-bdown-shadow-x}*/ 1px /*{a-bdown-shadow-y}*/ 0 /*{a-bdown-shadow-radius}*/ #f3f3f3 /*{a-bdown-shadow-color}*/;
@@ -1099,7 +1099,7 @@ html head + body .ui-body-a.ui-focus {
 html .ui-bar-b .ui-bar-inherit,
 html .ui-body-b .ui-bar-inherit,
 html body .ui-group-theme-b .ui-bar-inherit {
-	background-color: 			#ffffff /*{b-bar-background-color}*/;
+	background-color: 			 #E7E7DD /*{b-bar-background-color}*/;
 	/*border-color:	 		#1b1b1b /*{b-bar-border}*/;
 	/*color: 					#fff /*{b-bar-color}*/;
 	/*text-shadow: 0 /*{b-bar-shadow-x}*/ 1px /*{b-bar-shadow-y}*/ 0 /*{b-bar-shadow-radius}*/ 	#111 /*{b-bar-shadow-color}*/;
@@ -1113,7 +1113,7 @@ html body .ui-group-theme-b .ui-bar-inherit {
 .ui-overlay-b,
 .ui-page-theme-b,
 .ui-page-theme-b .ui-panel-wrapper {
-	/*background-color: 			#252525 /*{b-page-background-color}*/;
+	background-color: 			 #E7E7DD /*{b-page-background-color}*/;
 	/*border-color:	 		#454545 /*{b-page-border}*/;
 	/*color: 					#fff /*{b-page-color}*/;
 	/*text-shadow: 0 /*{b-page-shadow-x}*/ 1px /*{b-page-shadow-y}*/ 0 /*{b-page-shadow-radius}*/ 	#111 /*{b-page-shadow-color}*/;
@@ -1125,7 +1125,7 @@ html .ui-bar-b .ui-body-inherit,
 html .ui-body-b .ui-body-inherit,
 html body .ui-group-theme-b .ui-body-inherit,
 html .ui-panel-page-container-b {
-	/*background-color: #777777; /*{b-body-background-color}*/
+	background-color: #E7E7DD; /*{b-body-background-color}*/
 
 	/*background: -webkit-linear-gradient(#777777, rgb(37, 37, 37)); /* For Safari 5.1 to 6.0 */
 	/*background: -o-linear-gradient(#777777, rgb(37, 37, 37)); /* For Opera 11.1 to 12.0 */
@@ -1133,11 +1133,11 @@ html .ui-panel-page-container-b {
 	/*background: linear-gradient(#777777, rgb(37, 37, 37)); /* Standard syntax */
 	/*border-color:	 		#1d1d1d /*{b-body-border}*/;
 	color: 					#fff /*{b-body-color}*/;
-	text-shadow: 0 /*{b-body-shadow-x}*/ 1px /*{b-body-shadow-y}*/ 0 /*{b-body-shadow-radius}*/ 	#111 /*{b-body-shadow-color}*/;
+	/*text-shadow: 0 /*{b-body-shadow-x}*/ 1px /*{b-body-shadow-y}*/ 0 /*{b-body-shadow-radius}*/ 	#111 /*{b-body-shadow-color}*/;
 }
 .ui-body-b {
-	border-width: 1px;
-	border-style: solid;
+	/*border-width: 1px;*/
+	/*border-style: solid;*/
 }
 /* Links */
 .ui-page-theme-b a,
@@ -1151,7 +1151,7 @@ html body .ui-group-theme-b a {
 html .ui-bar-b a:visited,
 html .ui-body-b a:visited,
 html body .ui-group-theme-b a:visited {
-   /* color: #22aadd /*{b-link-visited}*/;
+    color:  #000 /*{b-link-visited}*/;
 }
 .ui-page-theme-b a:hover,
 html .ui-bar-b a:hover,
@@ -2850,7 +2850,7 @@ li.ui-block-e {
 	position: relative;
 }
 .ui-collapsible-heading .ui-btn {
-	text-align: left;
+	text-align: center;
 	margin: 0;
 	border-left-width: 0;
 	border-right-width: 0;
